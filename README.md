@@ -3,7 +3,7 @@ how to compare configs between two config files.
 
 Python difflib has been used for comparing purpose. 
 
->>>>>>>>>>>>>>>>>>> Sample output 1: 
+Sample output 1: 
 
 1. difference in file_1: 
                            description "Allow UDP snmp port 161
@@ -33,7 +33,8 @@ Python difflib has been used for comparing purpose.
                            community add "RT-DOOWN-RI-VRF-1-5152-EQUINIX-SV"
 
 --------------------------------------------------------------------------------
->>>>>>>>>>>>>>>>>>>>Sample output 2: 
+
+Sample output 2: 
 
 1. difference in file_1: 
                    server 1 address 172.22.64.59 secret "Cb26t3Rtuv3ItaYfwhf.0d8hX8bpZ7Ab" hash2
@@ -43,7 +44,7 @@ Python difflib has been used for comparing purpose.
 
 --------------------------------------------------------------------------------
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Sample output 3
+Sample output 3
 
 1. difference in file_1: 
                    port 1/1/21
@@ -80,7 +81,7 @@ Python difflib has been used for comparing purpose.
 11. difference in file_1: 
                static
 12. difference in file_2: 
-               static-route-entry 10.222.12.0/32
+               static-route-entry 10.22.12.0/32
 
 --------------------------------------------------------------------------------
 13. difference in file_1: 
